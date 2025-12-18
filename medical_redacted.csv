@@ -1,0 +1,4 @@
+patient_id,age_band,primary_condition,comorbidities,red_flags,notes_redacted
+P001,50-64,ACL reconstruction,hypertension,,Post-op week 6. Clearance: closed-chain only.
+P002,65+,Rotator cuff strain,none,,Pain with overhead reach. Avoid aggressive overhead loading.
+P003,50-64,Lower back pain,osteopenia,night_pain,Escalate if neurological symptoms appear.

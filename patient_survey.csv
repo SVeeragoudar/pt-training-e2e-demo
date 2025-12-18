@@ -1,0 +1,4 @@
+patient_id,mobility_level,pain_0_10,session_goal,equipment_access,self_reported_constraints
+P001,low,5,Restore knee flexion,resistance_band,No deep squats
+P002,medium,4,Increase shoulder stability,light_dumbbells,
+P003,high,7,,none,Avoid spinal flexion

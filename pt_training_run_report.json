@@ -1,0 +1,18 @@
+{
+  "run_timestamp_utc": "2025-12-18T20:51:09.623000Z",
+  "inputs": {
+    "medical_csv": "medical_redacted.csv",
+    "survey_csv": "patient_survey.csv"
+  },
+  "outputs": {
+    "plans_csv": "pt_training_plans.csv",
+    "run_report_json": "pt_training_run_report.json"
+  },
+  "merged_rows": 3,
+  "merge_errors_count": 0,
+  "quality_distribution": {
+    "high": 2,
+    "medium": 1
+  },
+  "merge_errors_sample": []
+}

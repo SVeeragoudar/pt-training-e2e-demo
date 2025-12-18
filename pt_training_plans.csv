@@ -1,0 +1,24 @@
+patient_id,primary_condition,mobility_level,pain_0_10,session_goal,constraints,plan_item_count,plan_text,qa_issues,ai_plan_quality,quality_score
+P001,ACL reconstruction,low,5,Restore knee flexion,closed_chain_only;no_deep_squats,4,"Patient: P001
+Condition: ACL reconstruction | Mobility: low | Pain: 5
+Goal: Restore knee flexion
+Constraints: closed_chain_only, no_deep_squats
+Session plan:
+1. Heel slides (2 x 10 reps)
+2. Wall-supported mini-squat (shallow) (2 x 6 reps)
+3. Terminal knee extension with band (2 x 10 reps)
+4. Supported sit-to-stand (partial range) (2 x 8 reps)",,high,2
+P002,Rotator cuff strain,medium,4,Increase shoulder stability,avoid_overhead_loading_if_painful,2,"Patient: P002
+Condition: Rotator cuff strain | Mobility: medium | Pain: 4
+Goal: Increase shoulder stability
+Constraints: avoid_overhead_loading_if_painful
+Session plan:
+1. Scapular retraction holds (2 x 20 seconds)
+2. External rotation with light band (elbow tucked) (2 x 8 reps)",,high,2
+P003,Lower back pain,high,7,,avoid_spinal_flexion_if_painful,2,"Patient: P003
+Condition: Lower back pain | Mobility: high | Pain: 7
+Constraints: avoid_spinal_flexion_if_painful
+Safety note: red flags present. Escalate to clinician review if symptoms worsen.
+Session plan:
+1. McGill curl-up (modified) (2 x 6 reps)
+2. Bird-dog (2 x 6 reps each side)",missing_session_goal,medium,1
